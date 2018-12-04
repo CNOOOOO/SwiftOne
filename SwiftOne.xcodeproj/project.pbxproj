@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2529B62108634F00AB5330 /* DynamicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2529B52108634F00AB5330 /* DynamicsTableViewCell.swift */; };
+		0A2529B82108658300AB5330 /* DynamicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2529B72108658300AB5330 /* DynamicsModel.swift */; };
+		0A2BBA1C2106CFF2005B9372 /* PhotoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BBA1B2106CFF2005B9372 /* PhotoContainer.swift */; };
+		0A2C5028210AF1560050A221 /* ShoppingCartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C5027210AF1560050A221 /* ShoppingCartCollectionViewCell.swift */; };
+		0A2DDF8C2101760100C235CC /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF8B2101760100C235CC /* MainTabbarController.swift */; };
+		0A2DDF8E2101765800C235CC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF8D2101765800C235CC /* BaseNavigationController.swift */; };
+		0A2DDF9421017B6C00C235CC /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9321017B6C00C235CC /* Macros.swift */; };
+		0A2DDF9621018C0F00C235CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9521018C0F00C235CC /* HomeViewController.swift */; };
+		0A2DDF9821018C1D00C235CC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9721018C1D00C235CC /* UserViewController.swift */; };
+		0A2DDF9A21018DBD00C235CC /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9921018DBD00C235CC /* DiscoveryViewController.swift */; };
+		0A2DDF9C21018DD100C235CC /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9B21018DD100C235CC /* ShoppingViewController.swift */; };
+		0A2DDF9E2101C1A800C235CC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDF9D2101C1A800C235CC /* BaseViewController.swift */; };
+		0A2DDFB02101CB7A00C235CC /* HotSaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDFAF2101CB7A00C235CC /* HotSaleCollectionViewCell.swift */; };
+		0A2DDFB22101CB9A00C235CC /* RecommmendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2DDFB12101CB9A00C235CC /* RecommmendCollectionViewCell.swift */; };
+		0A3CEE4A2117F14900673DCF /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3CEE492117F14900673DCF /* DefaultTableViewCell.swift */; };
+		0A3CEE4C21183E3200673DCF /* CheckInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3CEE4B21183E3200673DCF /* CheckInfoViewController.swift */; };
+		0A3DA393210EA5E500246C56 /* ShoppingCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA392210EA5E500246C56 /* ShoppingCartModel.swift */; };
+		0A3DA395210EDFD500246C56 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA394210EDFD500246C56 /* BalanceView.swift */; };
+		0A3F912B2113ECD40021E2B8 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F912A2113ECD40021E2B8 /* OrderTableViewCell.swift */; };
+		0A3F912D2113ED010021E2B8 /* FuctionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F912C2113ED010021E2B8 /* FuctionsTableViewCell.swift */; };
 		0A7D4E6221006E55002A0D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D4E6121006E55002A0D4E /* AppDelegate.swift */; };
 		0A7D4E6421006E55002A0D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D4E6321006E55002A0D4E /* ViewController.swift */; };
 		0A7D4E6721006E55002A0D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D4E6521006E55002A0D4E /* Main.storyboard */; };
@@ -14,6 +34,12 @@
 		0A7D4E6C21006E56002A0D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7D4E6A21006E56002A0D4E /* LaunchScreen.storyboard */; };
 		0A7D4E7721006E57002A0D4E /* SwiftOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D4E7621006E57002A0D4E /* SwiftOneTests.swift */; };
 		0A7D4E8221006E57002A0D4E /* SwiftOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D4E8121006E57002A0D4E /* SwiftOneUITests.swift */; };
+		0A7D4E90210085B1002A0D4E /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D4E8F210085B1002A0D4E /* FirstTableViewCell.swift */; };
+		0AF188702138DA4200C8F6D7 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1886A2138DA4200C8F6D7 /* SDPhotoBrowser.m */; };
+		0AF188712138DA4200C8F6D7 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1886B2138DA4200C8F6D7 /* SDWaitingView.m */; };
+		0AF188722138DA4200C8F6D7 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1886C2138DA4200C8F6D7 /* SDBrowserImageView.m */; };
+		0AF5009B21058E3700BD05E4 /* ColorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5009A21058E3700BD05E4 /* ColorImage.swift */; };
+		4F58178240AE0D6287A4DBC7 /* Pods_SwiftOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53B3972EC09C1ACF31FB85B /* Pods_SwiftOne.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2529B52108634F00AB5330 /* DynamicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsTableViewCell.swift; sourceTree = "<group>"; };
+		0A2529B72108658300AB5330 /* DynamicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsModel.swift; sourceTree = "<group>"; };
+		0A2BBA1B2106CFF2005B9372 /* PhotoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoContainer.swift; sourceTree = "<group>"; };
+		0A2C5027210AF1560050A221 /* ShoppingCartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A2DDF8B2101760100C235CC /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		0A2DDF8D2101765800C235CC /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0A2DDF9321017B6C00C235CC /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		0A2DDF9521018C0F00C235CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A2DDF9721018C1D00C235CC /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		0A2DDF9921018DBD00C235CC /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		0A2DDF9B21018DD100C235CC /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		0A2DDF9D2101C1A800C235CC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0A2DDFAF2101CB7A00C235CC /* HotSaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A2DDFB12101CB9A00C235CC /* RecommmendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommmendCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A3CEE492117F14900673DCF /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		0A3CEE4B21183E3200673DCF /* CheckInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInfoViewController.swift; sourceTree = "<group>"; };
+		0A3DA392210EA5E500246C56 /* ShoppingCartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartModel.swift; sourceTree = "<group>"; };
+		0A3DA394210EDFD500246C56 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		0A3F912A2113ECD40021E2B8 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		0A3F912C2113ED010021E2B8 /* FuctionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuctionsTableViewCell.swift; sourceTree = "<group>"; };
 		0A7D4E5E21006E55002A0D4E /* SwiftOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7D4E6121006E55002A0D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A7D4E6321006E55002A0D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +93,20 @@
 		0A7D4E7D21006E57002A0D4E /* SwiftOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7D4E8121006E57002A0D4E /* SwiftOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOneUITests.swift; sourceTree = "<group>"; };
 		0A7D4E8321006E57002A0D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7D4E8F210085B1002A0D4E /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		0A7D4E9121008A83002A0D4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0A7D4E9221008DE3002A0D4E /* SwiftOne_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOne_bridge.h; sourceTree = "<group>"; };
+		0AF188692138DA4200C8F6D7 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		0AF1886A2138DA4200C8F6D7 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		0AF1886B2138DA4200C8F6D7 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		0AF1886C2138DA4200C8F6D7 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		0AF1886D2138DA4200C8F6D7 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		0AF1886E2138DA4200C8F6D7 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		0AF1886F2138DA4200C8F6D7 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		0AF5009A21058E3700BD05E4 /* ColorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorImage.swift; sourceTree = "<group>"; };
+		4F0E76F42AF10B75DBD76027 /* Pods-SwiftOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOne/Pods-SwiftOne.release.xcconfig"; sourceTree = "<group>"; };
+		517A82983CFC26550653FA32 /* Pods-SwiftOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOne/Pods-SwiftOne.debug.xcconfig"; sourceTree = "<group>"; };
+		B53B3972EC09C1ACF31FB85B /* Pods_SwiftOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F58178240AE0D6287A4DBC7 /* Pods_SwiftOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +135,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2DDF9F2101C35800C235CC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDFAC2101C41200C235CC /* Controller */,
+				0A2DDFAD2101C41200C235CC /* Model */,
+				0A2DDFAE2101C41200C235CC /* View */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0A2DDFA02101C35800C235CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0AF188682138DA4200C8F6D7 /* SDPhotoBrowser */,
+				0A2DDFA32101C3BA00C235CC /* Controller */,
+				0A2DDFA52101C3BA00C235CC /* Model */,
+				0A2DDFA42101C3BA00C235CC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A2DDFA12101C35800C235CC /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDFA62101C3CA00C235CC /* Controller */,
+				0A2DDFA72101C3D700C235CC /* Model */,
+				0A2DDFA82101C3D700C235CC /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		0A2DDFA22101C35800C235CC /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDFAA2101C40600C235CC /* Controller */,
+				0A2DDFAB2101C40600C235CC /* Model */,
+				0A2DDFA92101C40600C235CC /* View */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		0A2DDFA32101C3BA00C235CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDF9521018C0F00C235CC /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A2DDFA42101C3BA00C235CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDFAF2101CB7A00C235CC /* HotSaleCollectionViewCell.swift */,
+				0A2DDFB12101CB9A00C235CC /* RecommmendCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A2DDFA52101C3BA00C235CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A2DDFA62101C3CA00C235CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDF9921018DBD00C235CC /* DiscoveryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A2DDFA72101C3D700C235CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A2529B72108658300AB5330 /* DynamicsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A2DDFA82101C3D700C235CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2BBA1B2106CFF2005B9372 /* PhotoContainer.swift */,
+				0A2529B52108634F00AB5330 /* DynamicsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A2DDFA92101C40600C235CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C5027210AF1560050A221 /* ShoppingCartCollectionViewCell.swift */,
+				0A3DA394210EDFD500246C56 /* BalanceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A2DDFAA2101C40600C235CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDF9B21018DD100C235CC /* ShoppingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A2DDFAB2101C40600C235CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA392210EA5E500246C56 /* ShoppingCartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A2DDFAC2101C41200C235CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A2DDF9721018C1D00C235CC /* UserViewController.swift */,
+				0A3CEE4B21183E3200673DCF /* CheckInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A2DDFAD2101C41200C235CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A2DDFAE2101C41200C235CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A3F912A2113ECD40021E2B8 /* OrderTableViewCell.swift */,
+				0A3F912C2113ED010021E2B8 /* FuctionsTableViewCell.swift */,
+				0A3CEE492117F14900673DCF /* DefaultTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0A7D4E5521006E55002A0D4E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +283,8 @@
 				0A7D4E7521006E57002A0D4E /* SwiftOneTests */,
 				0A7D4E8021006E57002A0D4E /* SwiftOneUITests */,
 				0A7D4E5F21006E55002A0D4E /* Products */,
+				ED9484E3703576D248AC9FF6 /* Pods */,
+				F3BE39A385A4C43A180DE351 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +301,20 @@
 		0A7D4E6021006E55002A0D4E /* SwiftOne */ = {
 			isa = PBXGroup;
 			children = (
+				0A2DDFA02101C35800C235CC /* Home */,
+				0A2DDFA12101C35800C235CC /* Discovery */,
+				0A2DDFA22101C35800C235CC /* Shopping */,
+				0A2DDF9F2101C35800C235CC /* User */,
 				0A7D4E6121006E55002A0D4E /* AppDelegate.swift */,
 				0A7D4E6321006E55002A0D4E /* ViewController.swift */,
+				0A7D4E9121008A83002A0D4E /* PrefixHeader.pch */,
+				0A2DDF9321017B6C00C235CC /* Macros.swift */,
+				0A7D4E9221008DE3002A0D4E /* SwiftOne_bridge.h */,
+				0A2DDF8B2101760100C235CC /* MainTabbarController.swift */,
+				0A2DDF8D2101765800C235CC /* BaseNavigationController.swift */,
+				0A2DDF9D2101C1A800C235CC /* BaseViewController.swift */,
+				0A7D4E8F210085B1002A0D4E /* FirstTableViewCell.swift */,
+				0AF5009A21058E3700BD05E4 /* ColorImage.swift */,
 				0A7D4E6521006E55002A0D4E /* Main.storyboard */,
 				0A7D4E6821006E56002A0D4E /* Assets.xcassets */,
 				0A7D4E6A21006E56002A0D4E /* LaunchScreen.storyboard */,
@@ -125,6 +341,37 @@
 			path = SwiftOneUITests;
 			sourceTree = "<group>";
 		};
+		0AF188682138DA4200C8F6D7 /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0AF188692138DA4200C8F6D7 /* SDPhotoBrowserConfig.h */,
+				0AF1886A2138DA4200C8F6D7 /* SDPhotoBrowser.m */,
+				0AF1886B2138DA4200C8F6D7 /* SDWaitingView.m */,
+				0AF1886C2138DA4200C8F6D7 /* SDBrowserImageView.m */,
+				0AF1886D2138DA4200C8F6D7 /* SDWaitingView.h */,
+				0AF1886E2138DA4200C8F6D7 /* SDPhotoBrowser.h */,
+				0AF1886F2138DA4200C8F6D7 /* SDBrowserImageView.h */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		ED9484E3703576D248AC9FF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517A82983CFC26550653FA32 /* Pods-SwiftOne.debug.xcconfig */,
+				4F0E76F42AF10B75DBD76027 /* Pods-SwiftOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3BE39A385A4C43A180DE351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53B3972EC09C1ACF31FB85B /* Pods_SwiftOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A7D4E8621006E57002A0D4E /* Build configuration list for PBXNativeTarget "SwiftOne" */;
 			buildPhases = (
+				46AC3C394F350F11816E66FF /* [CP] Check Pods Manifest.lock */,
 				0A7D4E5A21006E55002A0D4E /* Sources */,
 				0A7D4E5B21006E55002A0D4E /* Frameworks */,
 				0A7D4E5C21006E55002A0D4E /* Resources */,
+				D036B717E742141C89B22FA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +500,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46AC3C394F350F11816E66FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D036B717E742141C89B22FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOne/Pods-SwiftOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOne/Pods-SwiftOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A7D4E5A21006E55002A0D4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3DA393210EA5E500246C56 /* ShoppingCartModel.swift in Sources */,
+				0A2BBA1C2106CFF2005B9372 /* PhotoContainer.swift in Sources */,
+				0A7D4E90210085B1002A0D4E /* FirstTableViewCell.swift in Sources */,
+				0A2DDF9A21018DBD00C235CC /* DiscoveryViewController.swift in Sources */,
+				0A3DA395210EDFD500246C56 /* BalanceView.swift in Sources */,
+				0A2DDF9E2101C1A800C235CC /* BaseViewController.swift in Sources */,
+				0A3F912D2113ED010021E2B8 /* FuctionsTableViewCell.swift in Sources */,
+				0A2529B82108658300AB5330 /* DynamicsModel.swift in Sources */,
+				0A2DDF9821018C1D00C235CC /* UserViewController.swift in Sources */,
 				0A7D4E6421006E55002A0D4E /* ViewController.swift in Sources */,
+				0AF188702138DA4200C8F6D7 /* SDPhotoBrowser.m in Sources */,
+				0AF5009B21058E3700BD05E4 /* ColorImage.swift in Sources */,
+				0A2C5028210AF1560050A221 /* ShoppingCartCollectionViewCell.swift in Sources */,
+				0A2DDF9C21018DD100C235CC /* ShoppingViewController.swift in Sources */,
+				0A2DDF8C2101760100C235CC /* MainTabbarController.swift in Sources */,
+				0AF188722138DA4200C8F6D7 /* SDBrowserImageView.m in Sources */,
+				0A2DDF8E2101765800C235CC /* BaseNavigationController.swift in Sources */,
+				0A2529B62108634F00AB5330 /* DynamicsTableViewCell.swift in Sources */,
+				0A3CEE4A2117F14900673DCF /* DefaultTableViewCell.swift in Sources */,
+				0A3F912B2113ECD40021E2B8 /* OrderTableViewCell.swift in Sources */,
+				0A2DDF9421017B6C00C235CC /* Macros.swift in Sources */,
+				0A2DDFB02101CB7A00C235CC /* HotSaleCollectionViewCell.swift in Sources */,
+				0A2DDFB22101CB9A00C235CC /* RecommmendCollectionViewCell.swift in Sources */,
+				0A2DDF9621018C0F00C235CC /* HomeViewController.swift in Sources */,
+				0AF188712138DA4200C8F6D7 /* SDWaitingView.m in Sources */,
+				0A3CEE4C21183E3200673DCF /* CheckInfoViewController.swift in Sources */,
 				0A7D4E6221006E55002A0D4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,35 +749,49 @@
 		};
 		0A7D4E8721006E57002A0D4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517A82983CFC26550653FA32 /* Pods-SwiftOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac2/Desktop/SwiftOne/SwiftOne/PrefixHeader.pch;
 				INFOPLIST_FILE = SwiftOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mac2.SwiftOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac2/Desktop/SwiftOne/SwiftOne/SwiftOne_bridge.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		0A7D4E8821006E57002A0D4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0E76F42AF10B75DBD76027 /* Pods-SwiftOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac2/Desktop/SwiftOne/SwiftOne/PrefixHeader.pch;
 				INFOPLIST_FILE = SwiftOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Mac2.SwiftOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/mac2/Desktop/SwiftOne/SwiftOne/SwiftOne_bridge.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

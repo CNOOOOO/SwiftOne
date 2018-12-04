@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        let controller = ViewController()
+//        let navi = UINavigationController(rootViewController: controller)
+//        navi.navigationBar.barTintColor = UIColor.white
+//        navi.navigationBar.tintColor = UIColor.black
+//        let titleTextAttributes  = [NSAttributedStringKey.foregroundColor: UIColor.black, NSAttributedStringKey.font: UIFont.systemFont(ofSize: 15)]
+//        navi.navigationBar.titleTextAttributes = titleTextAttributes
+        
+        self.window? = UIWindow(frame: UIScreen.main.bounds)
+        let tabbar = MainTabbarController()
+        self.window!.rootViewController = tabbar
+        self.window!.makeKeyAndVisible()
         return true
     }
 

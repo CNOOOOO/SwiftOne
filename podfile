@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+target 'SwiftOne' do
+pod 'Masonry'
+pod 'SDCycleScrollView'
+pod 'SDWebImage', '~>4.0'
+pod 'MJRefresh'
+pod 'TZImagePickerController'
+use_frameworks!
+end
